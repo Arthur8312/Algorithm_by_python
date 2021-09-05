@@ -4,8 +4,8 @@ Created on Thu Aug 26 19:05:52 2021
 
 @author: arthur
 """
-def bfs(graph,start):
-     queue, visited = [start],[start]
+def bfs(graph, start):
+     queue, visited = [start], [start]
      while queue:
             vertex = queue.pop()
             for i in graph[vertex]:
